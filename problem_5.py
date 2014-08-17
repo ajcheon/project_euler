@@ -7,11 +7,8 @@ while keep_going:
     tally = 0
     for i in range (1, 21): 
         if incr % i == 0: 
-            tally += 1
-    #print tally 
+            tally += 1 
     if tally == 20: 
-        print incr 
+        print inc
         keep_going = False
     incr += 1
-  
-#print incr 
